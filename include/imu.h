@@ -4,6 +4,7 @@
  *
  * owner - TODO
  */
- #include <MPU6050.h>
- #include <I2Cdev.h>
- extern MPU6050 mpu;
+#include <MPU6050.h>
+#include <I2Cdev.h>
+extern MPU6050 mpu;
+extern QueueHandle_t dataQueue;
